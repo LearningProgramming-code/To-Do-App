@@ -1,0 +1,7 @@
+body,html{
+    background-color: aqua;
+    background-image: url('./Assets/mainbg.jpg');
+ }  
+.Header{
+    font-size: small    ;
+}

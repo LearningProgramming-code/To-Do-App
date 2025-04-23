@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  /* background-color: black;  */
+
+  /* background: linear-gradient(to bottom, red 50%, black 50%); */
+}
+.App {
+  text-align: center;
+  background-color: black;
+  background-image: url('./Assets/1.jpg');
+  background-size: cover;
+  /* color: black; */
+}
+
+.App-logo {
+  height: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  /* max-height: 0.00001vh; */
+  color: #61dafb;
+   display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+.App-title {
+  color: rgb(234, 234, 234);
+} 
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-body {
+  /* background-color: black; */
+  flex-direction: column;
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+
+}
+.querybox {
+  text-align: center;
+  font-size: x-large;
+  align-items: center;  
+  min-height: 10vh;
+  min-width: 70vh;
+  /* margin: 0 auto 40px auto; */
+  margin-top: 70px;
+  /* margin-bottom: 60px; */
+  /* margin-right: 50px; */
+  border-radius: 30px;
+}
+.querybox::placeholder{
+  text-align: center;
+  font-size: large;
+}
+.querybox:disabled{
+  /* opacity: 1000; */
+  background-color: white;
+
+}
+.label{
+  color:antiquewhite;
+  margin-bottom: 300px;
+  align-items: center;
+  justify-content: center;
+}
+body.books-body{
+  background-color: aqua !important;
+}
+.Main-header{
+  font-size: xx-large;
+  color: antiquewhite;
+}
+.OtherApp-body {
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.help {
+color: white;
+font-size: x-large;
+margin-bottom: 0px;
+margin-top: 60px;
+}
